@@ -20,7 +20,6 @@ makeCacheMatrix <- function(x = matrix())
     list(setMat = setMat, getMat = getMat, setInv = setInv, getInv = getInv)
   }
 
-
 ## Function that gets the inverse of the input matrix, unless the output 
 ## is already cached, in which case the cached output is displayed saving
 ## on computation power
